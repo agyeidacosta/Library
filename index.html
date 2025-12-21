@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="STYLE/index.css">
+  <link rel="icon" href="IMAGE/library.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+</head>
+
+
+
+<body>
+
+  <!--Navigation Bar-->
+
+<nav class="nav-bar-container">
+<h1 class="logo"></h1>
+<nav class="humbuger">&#9776;</nav>
+<nav class="nav-bar">
+<nav class="close">&times;</nav>
+<a href="#welcome">Home</a>
+<a href="#book">Books on sale</a>
+<a href="#payment-order">Purchase Book</a>
+<a href="#peruse">Peruse Books</a>
+</nav>
+
+  </nav>
+
+
+
+
+<!--WELCOME-->
+  <div class="welcome" id="welcome">
+
+  <div class="welcome-cover">
+
+  <span class="greeting">Welcome To Knowledge Hub Library </span>
+  <P>
+  Discover books, journals, and digital reources that inspire learning, creativity and research.
+  </P>
+
+ <div class="hero-section-btn">
+
+   <button class="btn"> <a href="#book">Browse Books</a></button>
+  
+  <button class="btn"> <a href="#peruse">Join Library</a></button>
+ </div>
+  </div>
+  </div>
+
+
+
+
+  <!-- BOOKS SECTION-->
+
+  <div class="books" id="book">
+
+<span class="heading">Browse</span>
+
+<div class="book1">
+<img src="IMAGE/book12.jpg" alt="book1">
+
+<div class="price1">$20.</div>
+
+
+<div class="btn-container">
+<button><a href="#payment-order">Buy Book</a></button>
+<button><a href="#peruse">Join the Library</a></button>
+
+</div>
+</div>
+
+
+
+
+
+<div class="book2">
+<img src="IMAGE/book3.jpg" alt="book3">
+
+<div class="price2">$30.</div>
+<div class="btn-container">
+<button><a href="#payment-order">Buy Book</a></button>
+<button><a href="#peruse">Join the Library</a></button>
+
+</div>
+</div>
+
+
+
+<div class="book3">
+<img src="IMAGE/book4.jpg" alt="book4">
+
+<div class="price3">$25.</div>
+<div class="btn-container">
+<button><a href="#payment-order">Buy Book</a></button>
+<button><a href="#peruse">Join the Library</a></button>
+
+</div>
+</div>
+
+
+<div class="book4">
+<img src="IMAGE/book5.jpg" alt="book5">
+
+<div class="price4">$15.</div>
+
+<div class="btn-container">
+<button><a href="#payment-order">Buy Book</a></button>
+<button><a href="#peruse">Join the Library</a></button>
+
+</div>
+</div>
+
+
+<div class="book5">
+<img src="IMAGE/book6.jpg" alt="book6">
+
+<div class="price5">$30.</div>
+<div class="btn-container">
+<button><a href="#payment-order">Buy Book</a></button>
+<button><a href="#peruse">Join the Library</a></button>
+
+</div>
+</div>
+
+
+
+
+
+<div class="book6">
+<img src="IMAGE/book9.jpg" alt="book6">
+<div class="price6">$45.</div>
+
+<div class="btn-container">
+<button><a href="#payment-order">Buy Book</a></button>
+<button><a href="#peruse">Join the Library</a></button>
+
+</div>
+</div>
+
+  </div>
+
+<!--Payment Details-->
+<div class="payment-order" id="payment-order">
+
+<h3 class="topic">Purchase Book </h3>
+
+
+<div class="layout">
+  <div class="address-form">
+   <h3>Contact Address</h3>
+   <h4>Costa Press Publication</h4>
+   <h5>Box 147, Bechem-Ahafo Region</h5>
+   <h6>Tel: +233247078406</h6>
+
+  </div>
+
+  <form action="" class="form-container">
+ <label for="">Name<i class="fa-solid fa-person"></i></label>
+ <input type="text" required>
+
+  <label for="">Contact <i class="fa-solid fa-address-book"></i></label>
+ <input type="text" required>
+
+  <label for="">Email<i class="fa-solid fa-message"></i></label>
+ <input type="email" required>
+
+
+
+ <label for="">Book Tittle<i class="fa-solid fa-book"></i></label>
+ <select>
+  <option value="" selected>Select Option</option>
+  <option value="#">Ultimate Success</option>
+  <option value="#">Prayer is the key to life</option>
+  <option value="#">In the Quest for the truth</option>
+  <option value="#">How To Launch A Successful Business</option>
+  <option value="#">Back To The Future</option>
+  <option value="#">Success Faster</option>
+ </select>
+
+ <label for="">Amount(GHS)</label>
+ <input type="number" required>
+
+<button type="submit" onclick= popupmessage()>Make Payment</button>
+ <p id="message"></p>
+  </form>
+</div>
+</div>
+
+
+
+ <!--Peruse Books-->
+<div class="Peruse" id="peruse">
+<h3 class="rea-a-book">Click on the images to read a book<i class="fa-solid fa-book"></i></h3>
+  <!--site 1-->
+<div class="reading">
+
+
+  <a href="https://www.openlibrary.org">
+<img src="IMAGE/openlibrary.jpg" alt="">
+  </a>
+  <div class="download-content">
+    <a  href="IMAGE/openlibrary.jpg"download>Download Icon<i class="fa-solid fa-download"></i></a>
+  </div>
+
+</div>
+
+
+<!--site 2-->
+<div class="reading">
+  <a href="https://www.archive.org/details/texts">
+<img src="IMAGE/archive.org.jpg" alt="">
+  </a>
+
+  <div class="download-content">
+<a href="IMAGE/archive.org.jpg"download>Download Icon<i class="fa-solid fa-download"></i></a>
+   </div>
+</div>
+
+
+<!--site 3-->
+<div class="reading">
+
+  <a  href="https://www.gutenberg.org">
+<img src="IMAGE/gutten.jpg" alt="">
+  </a>
+
+  <div class="download-content">
+    <a href="IMAGE/gutten.jpg"download>Download Icon<i class="fa-solid fa-download"></i></a>
+  </div>
+
+</div>
+
+
+<!--site 4-->
+<div class="reading">
+  <a href="https://www.readanybook.com">
+<img src="IMAGE/library.org.jpg" alt="">
+ </a>
+<div class="download-content">
+  <a href="IMAGE/library.org.jpg"download>Download Icon<i class="fa-solid fa-download"></i></a>
+ 
+</div>
+
+</div>
+</div>
+
+
+
+<footer>
+
+<p>2025 &copy; All Rights Reserved. Costa-Tech Publications</p>
+</footer>
+
+ <script src="JAVASCRIPT/index.js"></script>
+</body>
+</html>
