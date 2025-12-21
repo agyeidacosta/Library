@@ -654,6 +654,7 @@ font-size: 18px;
 
 .form-container input, select{
 width: 100%;
+padding:10px;
 border-radius: 5px;
 border-bottom: 2px solid rgb(0, 0, 0);
 height: 30px;
@@ -805,3 +806,4 @@ footer p{
 position: absolute;
 text-align: center;
 }
+
