@@ -660,7 +660,7 @@ height: 30px;
 margin: 5px 0;
 }
 
-.form-container input[type="text"]{
+ input[type="text"]{
   padding: 5px 7px;
 }
 
@@ -809,5 +809,6 @@ footer p{
 position: absolute;
 text-align: center;
 }
+
 
 
