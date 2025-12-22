@@ -724,7 +724,7 @@ padding-bottom: 30px;
 
 @media(max-width:768px){
 .Peruse{
-padding-bottom: 210px;
+padding-bottom: 50px;
 
 }
 
@@ -802,6 +802,33 @@ margin: 0 auto;
 }
 
 
+.paging{
+    grid-column: 1/-1;
+    margin-top: 20px;
+    padding-bottom: 50px;
+
+    }
+
+    .paging-a{
+      display: flex;
+    justify-content:center;
+    align-items: center;
+    }
+    
+    .paging a{
+      border: 1px solid black;
+      color: rgb(97, 5, 5);
+      background-color: white;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+      margin: 0 3px;
+      padding: 8px 12px;
+      text-decoration: none;
+      border: 5px;
+    }
+
+
+
+
 
 @media(max-width:768px){
 .reading img{
@@ -814,6 +841,10 @@ width: 100%;
   padding-top: 15px;
 }
 
+
+.paging-a{
+  width: 100%;
+}
 
 
 i{
@@ -841,9 +872,21 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 
+
+
 footer p{
 
 position: absolute;
 text-align: center;
-font-size: 10px;
+font-size: 16px;
 }
+
+
+
+@media(max-width:768px){
+
+footer p{ 
+ font-size: 10px;
+}
+}
+
