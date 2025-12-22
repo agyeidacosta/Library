@@ -665,7 +665,7 @@ border-radius: 5px;
 border-bottom: 2px solid rgb(0, 0, 0);
 height: 30px;
 margin: 10px 0;
-background-image: url('/IMAGE/volunteer-icon.png');
+background-image: url('../IMAGE/volunteer-icon.png');
 background-repeat: no-repeat;
 background-position: 10px 10px;
 padding:5px;
@@ -680,7 +680,7 @@ border-radius: 5px;
 border-bottom: 2px solid rgb(0, 0, 0);
 height: 30px;
 margin: 10px 0;
-background-image: url('/IMAGE/telephone-icon.png');
+background-image: url('../IMAGE/telephone-icon.png');
 background-repeat: no-repeat;
 background-position: 10px 10px;
 padding:5px;
@@ -695,7 +695,7 @@ border-radius: 5px;
 border-bottom: 2px solid rgb(0, 0, 0);
 height: 30px;
 margin: 10px 0;
-background-image: url('/IMAGE/envelope-open-icon.png');
+background-image: url('../IMAGE/envelope-open-icon.png');
 background-repeat: no-repeat;
 background-position: 10px 10px;
 padding:5px;
@@ -710,7 +710,7 @@ border-radius: 5px;
 border-bottom: 2px solid rgb(0, 0, 0);
 height: 30px;
 margin: 10px 0;
-background-image: url('/IMAGE/finance-icon.png');
+background-image: url('../IMAGE/finance-icon.png');
 background-repeat: no-repeat;
 background-position: 10px 10px;
 padding:5px;
@@ -939,6 +939,7 @@ footer p{
  font-size: 10px;
 }
 }
+
 
 
 
