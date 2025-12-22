@@ -220,6 +220,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
+font-size:14px;
 }
 .hero-section-btn{
 background-color: transparent;
@@ -889,4 +890,5 @@ footer p{
  font-size: 10px;
 }
 }
+
 
