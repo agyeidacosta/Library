@@ -220,7 +220,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-font-size:14px;
 }
 .hero-section-btn{
 background-color: transparent;
@@ -604,9 +603,8 @@ width: 100%;
 
 .address-form{
 font-style: italic;
-box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 border-radius: 9px;
-background: rgba(255,255,255,0.1);
+background:transparent;
 padding: 5px;
 height: auto;
 padding: 5px 0;
@@ -656,20 +654,71 @@ text-align: center;
 
 
 .form-container label{
-margin: 13px 0;
 color: rgb(255, 255, 255);
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 18px;
 }
 
-.form-container input{
+ .name{
 width: 100%;
 border-radius: 5px;
 border-bottom: 2px solid rgb(0, 0, 0);
 height: 30px;
-margin: 5px 0;
-padding: 5px;
+margin: 10px 0;
+background-image: url(/IMAGE/volunteer-icon.png);
+background-repeat: no-repeat;
+background-position: 10px 10px;
+padding:5px;
+background-size: 20px 20px;
 }
+
+
+
+ .Contact{
+width: 100%;
+border-radius: 5px;
+border-bottom: 2px solid rgb(0, 0, 0);
+height: 30px;
+margin: 10px 0;
+background-image: url(/IMAGE/telephone-icon.png);
+background-repeat: no-repeat;
+background-position: 10px 10px;
+padding:5px;
+background-size: 20px 20px;
+}
+
+
+
+ .email{
+width: 100%;
+border-radius: 5px;
+border-bottom: 2px solid rgb(0, 0, 0);
+height: 30px;
+margin: 10px 0;
+background-image: url(/IMAGE/envelope-open-icon.png);
+background-repeat: no-repeat;
+background-position: 10px 10px;
+padding:5px;
+background-size: 20px 20px;
+}
+
+
+
+ .amount{
+width: 100%;
+border-radius: 5px;
+border-bottom: 2px solid rgb(0, 0, 0);
+height: 30px;
+margin: 10px 0;
+background-image: url(/IMAGE/finance-icon.png);
+background-repeat: no-repeat;
+background-position: 10px 10px;
+padding:5px;
+background-size: 20px 20px;
+}
+
+
+
 
 
 .form-container input:focus{
@@ -890,5 +939,3 @@ footer p{
  font-size: 10px;
 }
 }
-
-
