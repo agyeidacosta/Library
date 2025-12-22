@@ -539,7 +539,7 @@ cursor: pointer;
 
 .payment-order{
 width: 100%;
-height: 100vh;
+height: 100%;
 background: #252323;
 gap: 300px;
 color: white;
@@ -553,17 +553,18 @@ padding-bottom: 90px;
 display: flex;
 justify-content: center;
 gap: 100px;
+padding: 0 45px;
 
 }
 
 
 
 .form-container{
-
+max-width: 50%;
 box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 border-radius: 9px;
 background: rgba(255,255,255,0.1);
-padding: 20px;
+padding: 45px;
 border-radius: 6px;
 
 
@@ -575,19 +576,26 @@ border-radius: 6px;
 max-width: 100%;
 flex-direction: column;
 padding-top: 20px;
-padding-bottom: 50px;
-padding-left: 5px;
-padding-right: 5px;
+padding: 5px 15px;
 }
 
 .form-container{
   max-width: 100%;
+  padding: 25px;
 }
 
 .payment-order{
 flex-direction: column;
 height: 100%;
 padding: 65px 0;
+}
+
+.form-container button{
+width: 100%;
+}
+
+select{
+width: 100%;
 }
 }
 
@@ -600,7 +608,7 @@ border-radius: 9px;
 background: rgba(255,255,255,0.1);
 padding: 5px;
 height: auto;
-padding: 7px 0;
+padding: 5px 0;
 display: flex;
 justify-content: center;
 flex-direction: column;
@@ -611,13 +619,14 @@ margin: 0 10px;
 .address-form h3, .address-form h4,
 .address-form h5, .address-form h6{
 padding: 3px 10px;
-color: gold;
+color: rgb(255, 255, 255);
 }
 
 
 
 .topic{
- padding: 100px 0;
+ padding-top: 80px;
+ padding-bottom: 40px;
 text-align: center;
 font-size: 1.5rem;
 }
@@ -663,8 +672,8 @@ padding: 5px;
 
 
 .form-container input:focus{
-  background: #252323;
-  color: white;
+  background: #fffefe;
+  color: rgb(0, 0, 0);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -719,6 +728,22 @@ padding-bottom: 210px;
 
 }
 
+.reading{
+margin-top: 90px;
+}
+
+
+.rea-a-book{
+font-size: 30px;
+font-style: italic;
+font-weight: 600;
+text-align: justify;
+margin-top: 70px;
+}
+
+.download-content{
+font-size: 10px;
+}
 }
 
 .rea-a-book{
@@ -811,7 +836,7 @@ align-items: center;
 padding: 15px 0;
 font-style: italic;
 font-family: 'Times New Roman', Times, serif;
-font-size: 14px;
+
 
 }
 
@@ -820,5 +845,5 @@ footer p{
 
 position: absolute;
 text-align: center;
+font-size: 10px;
 }
-
