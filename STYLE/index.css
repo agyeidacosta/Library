@@ -663,13 +663,14 @@ font-size: 18px;
 width: 100%;
 border-radius: 5px;
 border-bottom: 2px solid rgb(0, 0, 0);
-height: 30px;
+height: 40px;
 margin: 10px 0;
-background-image: url('../IMAGE/volunteer-icon.png');
+background-image: url('/IMAGE/volunteer-icon.png');
 background-repeat: no-repeat;
-background-position: 10px 10px;
-padding:5px;
+background-position: 10px center;
+padding:10px 35px 10px 35px;
 background-size: 20px 20px;
+box-sizing: border-box;
 }
 
 
@@ -678,13 +679,14 @@ background-size: 20px 20px;
 width: 100%;
 border-radius: 5px;
 border-bottom: 2px solid rgb(0, 0, 0);
-height: 30px;
+height: 40px;
 margin: 10px 0;
-background-image: url('../IMAGE/telephone-icon.png');
+background-image: url('/IMAGE/telephone-icon.png');
 background-repeat: no-repeat;
-background-position: 10px 10px;
-padding:5px;
+background-position: 10px center;
+padding:10px 35px 10px 35px;
 background-size: 20px 20px;
+box-sizing: border-box;
 }
 
 
@@ -693,13 +695,15 @@ background-size: 20px 20px;
 width: 100%;
 border-radius: 5px;
 border-bottom: 2px solid rgb(0, 0, 0);
-height: 30px;
+height: 40px;
 margin: 10px 0;
-background-image: url('../IMAGE/envelope-open-icon.png');
+background-image: url('/IMAGE/envelope-open-icon.png');
 background-repeat: no-repeat;
-background-position: 10px 10px;
-padding:5px;
+background-position: 10px center;
+padding:10px 35px 10px 35px;
+box-sizing: border-box;
 background-size: 20px 20px;
+line-height: 40px;
 }
 
 
@@ -708,15 +712,16 @@ background-size: 20px 20px;
 width: 100%;
 border-radius: 5px;
 border-bottom: 2px solid rgb(0, 0, 0);
-height: 30px;
+height: 40px;
 margin: 10px 0;
-background-image: url('../IMAGE/finance-icon.png');
+background-image: url('/IMAGE/finance-icon.png');
 background-repeat: no-repeat;
-background-position: 10px 10px;
-padding:5px;
+background-position: 10px center;
+padding:10px 35px 10px 35px;
+line-height: 40px;
 background-size: 20px 20px;
+box-sizing: border-box;
 }
-
 
 
 
@@ -939,6 +944,7 @@ footer p{
  font-size: 10px;
 }
 }
+
 
 
 
