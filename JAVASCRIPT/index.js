@@ -21,30 +21,7 @@
     }); 
   }); 
 
-function fasttime(){
   const gettime=new Date();
- const el=document.getElementById('time');
-  el.innerHTML=gettime.toLocaleString("en-GB",{
+ document.getElementById("time").innerHTML=gettime.toString();
 
- day:"2-digits";
- month:"short";
- year:"numeric";
- hour:"2-digits";
- minutes:"2-digits";
- second:"2-digits";
-  el.style.margin='20px 0';
-   el.style.color='gold';
-   el.style.padding='15px';
-   el.style.width='400px';
-})
-}
-
-setInterval(fasttime,1000);
- 
-
-  function popupmessage(){
-  alert("Payment Made Successfully");
-   
-
-  }
 
