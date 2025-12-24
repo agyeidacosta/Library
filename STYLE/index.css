@@ -180,6 +180,9 @@ color: orangered;
     }
 
 
+   
+
+
 
 
 /*welcome messssage*/
@@ -213,13 +216,18 @@ text-align: center;
 padding: 50px 10px;
 }
 
-
+.time{
+padding: 25p;
+border: 9px;
+}
 
 .greeting{
 display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
+width: auto;
+font-size: 5px;
 }
 .hero-section-btn{
 background-color: transparent;
@@ -307,7 +315,7 @@ background: white;
 place-items: center;
 color: black;
 vertical-align: top;
-padding-bottom: 400px;
+padding-bottom: 500px;
 
 
 
@@ -449,6 +457,13 @@ object-position: center;
 
 .price1{
   text-align: center;
+   text-align: center;
+  width: 35px;
+  outline: 1px solid black;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 13px;
+  box-shadow: 0 9px 20px rgba(0,0,0,0.15);
 }
 
 
@@ -465,6 +480,13 @@ object-position: center;
 
 .price2{
   text-align: center;
+   text-align: center;
+  width: 35px;
+  outline: 1px solid black;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 13px;
+  box-shadow: 0 9px 20px rgba(0,0,0,0.15);
 }
 
 .book3 img{
@@ -477,6 +499,13 @@ object-position: center;
 
 .price3{
   text-align: center;
+   text-align: center;
+  width: 35px;
+  outline: 1px solid black;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 13px;
+  box-shadow: 0 9px 20px rgba(0,0,0,0.15);
 }
 
 
@@ -494,6 +523,13 @@ object-position: center;
 
 .price4{
   text-align: center;
+   text-align: center;
+  width: 35px;
+  outline: 1px solid black;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 13px;
+  box-shadow: 0 9px 20px rgba(0,0,0,0.15);
 }
 
 
@@ -507,6 +543,13 @@ object-position: center;
 
 .price5{
   text-align: center;
+   text-align: center;
+  width: 35px;
+  outline: 1px solid black;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 13px;
+  box-shadow: 0 9px 20px rgba(0,0,0,0.15);
 }
 
 
@@ -523,6 +566,12 @@ object-position: center;
 
 .price6{
   text-align: center;
+  width: 35px;
+  outline: 1px solid black;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 13px;
+  box-shadow: 0 9px 20px rgba(0,0,0,0.15);
 }
 
 
