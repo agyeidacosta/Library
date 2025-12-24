@@ -397,6 +397,7 @@ padding: 10px;
 .book4,.book5,.book6{
 box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 border-radius: 9px;
+padding-bottom: 80px;
 }
 
 .book1 img,.book2 img,.book3 img,
@@ -994,4 +995,5 @@ footer p{
  font-size: 10px;
 }
 }
+
 
