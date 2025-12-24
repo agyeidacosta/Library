@@ -20,9 +20,20 @@
       navMenu.classList.remove('active'); 
     }); 
   }); 
+
+
+  const gettime=new Date('2025-12-24 10:44:00');
+ const el=document.getElementById('time');
+  el.innerHTML=gettime.toLocaleString();
+  el.style.margin='20px 0';
+   el.style.color='gold';
+   el.style.padding='15px';
+   el.style.width='400px';
+   
  
 
   function popupmessage(){
   alert("Payment Made Successfully");
    
+
   }
