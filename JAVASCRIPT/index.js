@@ -1,7 +1,7 @@
 
  const hambuger = document.querySelector('.humbuger'); 
   const navMenu = document.querySelector('.nav-bar'); 
-  const closeBtn = document.querySelector('.nav-bar .close'); 
+  const closeBtn = document.querySelector(' .close'); 
   const navLinks = document.querySelectorAll('.nav-bar a'); // select all links 
  
   // Open menu 
@@ -23,5 +23,6 @@
 
   const gettime=new Date();
  document.getElementById("time").innerHTML=gettime.toString();
+
 
 
