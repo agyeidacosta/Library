@@ -397,7 +397,7 @@ padding: 10px;
 .book4,.book5,.book6{
 box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 border-radius: 9px;
-
+padding-bottom: 15px;
 }
 
 .book1 img,.book2 img,.book3 img,
@@ -418,8 +418,8 @@ transform:scale(1.05);
 .book1 button, .book2 button,
 .book3 button, .book4 button,
 .book5 button, .book6 button{
-margin: 8px 0;
-padding: 15px 20px 15px 20px;
+margin: 5px 0;
+padding: 10px 13px 10px 13x;
 border: none;
 background: rgb(19, 43, 19);
 box-shadow: 0 9px 20px rgba(0,0,0,0.15);
@@ -446,7 +446,6 @@ opacity: 0.8;
 .book2{
 box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 border-radius: 9px;
-
 }
 
 .book1 img{
@@ -996,6 +995,3 @@ footer p{
  font-size: 10px;
 }
 }
-
-
-
